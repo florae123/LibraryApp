@@ -11,3 +11,5 @@ To run the app, please create an instance of a Cloudant NoSQL Database, a Conver
 **Find the Java backend in this repository: [https://github.com/florae123/library-server-java](https://github.com/florae123/library-server-java).**
 
 **Find the Node.js server and the web interface here: [https://github.com/florae123/Libraryui](https://github.com/florae123/Libraryui).**
+
+![WebApp](./images/Webapp.png)
