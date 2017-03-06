@@ -1,6 +1,6 @@
 # Library application
 
-This is a sample application: It allows you to store, delete and update books and customers and register borrowed books.
+This is a sample application running on IBM Bluemix. It allows you to store, delete and update books and customers and register borrowed books.
 
 It includes the Watson Conversation Service as well as the TextToSpeech Service.
 
@@ -12,4 +12,12 @@ To run the app, please create an instance of a Cloudant NoSQL Database, a Conver
 
 **Find the Node.js server and the web interface here: [https://github.com/florae123/Libraryui](https://github.com/florae123/Libraryui).**
 
+You will also be provided with step-by-step instructions on how to deploy the library app to Bluemix.
+
 ![WebApp](./images/Webapp.png)
+
+##Architecture
+
+A microservice-based architecture: The node.js server interacts with the Watson services and with the java server. The database is accessed from the java server.
+
+![](./images/app-architecture.png)
