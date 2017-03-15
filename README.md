@@ -14,9 +14,11 @@ To run the app, please create an instance of a Cloudant NoSQL Database, a Conver
 
 You will also be provided with step-by-step instructions on how to deploy the library app to Bluemix.
 
+**Watch the video on YouTube for further information about this application: [https://www.youtube.com/watch?v=NqF2wIMBqBw](https://www.youtube.com/watch?v=NqF2wIMBqBw).**
+
 ![WebApp](./images/Webapp.png)
 
-##Architecture
+## Architecture
 
 A microservice-based architecture: The node.js server interacts with the Watson services and with the java server. The database is accessed from the java server.
 
